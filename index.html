@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio de Cesar Oliveros, Desarrollador de Software Junior especializado en desarrollo web y bases de datos.">
+    <title>Cesar Oliveros | Desarrollador Junior Inicial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo">
+                <span>&lt;</span> Cesar<span>/&gt;</span>
+            </a>
+
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content container">
+
+                <div class="hero-text">
+                    <p class="small-title">
+                        <span></span> HOLA, SOY
+                    </p>
+
+                    <h1>
+                        Cesar <strong>Oliveros</strong>
+                    </h1>
+
+                    <h2 class="typing-container">
+                        <span id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Tecnólogo en Análisis y Desarrollo de Software.
+                        Me gusta crear soluciones digitales, trabajar con
+                        bases de datos y desarrollar páginas y aplicaciones web.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn primary">
+                            Ver mis proyectos
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contacto" class="btn secondary">
+                            Contactarme
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Cesarin0125" title="GitHub" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="www.linkedin.com/in/cesar-oliveros-415894333" title="LinkedIn" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-code">
+                    <div class="code-window" id="code-window">
+                        <div class="code-header">
+                            <div class="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <p>developer.js</p>
+                        </div>
+
+                        <div class="code-body">
+<pre><code><span class="purple">const</span> developer = {
+
+    <span class="blue">name</span>: <span class="green">"Cesar Oliveros"</span>,
+
+    <span class="blue">role</span>: <span class="green">"Junior Developer"</span>,
+
+    <span class="blue">skills</span>: [
+        <span class="green">"HTML"</span>,
+        <span class="green">"CSS"</span>,
+        <span class="green">"JavaScript"</span>,
+        <span class="green">"PHP"</span>,
+        <span class="green">"SQL"</span>,
+        <span class="green">"C#"</span>
+    ],
+
+    <span class="blue">learning</span>: <span class="green">true</span>,
+
+    <span class="blue">motivation</span>: <span class="green">"100%"</span>
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="sobre-mi" class="section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <p>CONÓCEME</p>
+                    <h2>Sobre <span>mí</span></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <h3>Desarrollador Junior con ganas de crecer</h3>
+                        <p>
+                            Soy Tecnólogo en Análisis y Desarrollo de Software,
+                            con conocimientos en desarrollo web, programación
+                            y bases de datos.
+                        </p>
+                        <p>
+                            Me considero una persona responsable, comprometida
+                            y con facilidad para aprender nuevas tecnologías.
+                            Disfruto resolver problemas y buscar soluciones
+                            funcionales.
+                        </p>
+                        <p>
+                            Actualmente busco oportunidades como
+                            <strong>Desarrollador Junior</strong>, donde pueda
+                            aplicar mis conocimientos, adquirir experiencia
+                            y continuar creciendo profesionalmente.
+                        </p>
+
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-text">Compromiso</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">SENA</span>
+                                <span class="stat-text">Tecnólogo ADSO</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">Agile / Scrum</span>
+                                <span class="stat-text">Metodología de Trabajo</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">Landing pages</span>
+                                <span class="stat-text">JS / HTML / CSS</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">CRUD</span>
+                                <span class="stat-text">PHP / Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card reveal">
+                        <div class="avatar-container">
+                            <img src="images/avatar_animado_v2.png" alt="Avatar de Cesar Oliveros" class="avatar-img">
+                        </div>
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Mi objetivo</h3>
+                        <p>
+                            Seguir aprendiendo, participar en proyectos reales
+                            y aportar soluciones mediante el desarrollo de
+                            software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="habilidades" class="section skills-section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <p>TECNOLOGÍAS</p>
+                    <h2>Mis <span>habilidades</span></h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="70"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <p>Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="65"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Básico</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="40"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-php"></i>
+                        <h3>PHP</h3>
+                        <p>Básico - Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="50"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>SQL Server</h3>
+                        <p>Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="60"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>MySQL</h3>
+                        <p>Básico - Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="55"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-react"></i>
+                        <h3>React</h3>
+                        <p>En aprendizaje</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="25"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <h3>Git / GitHub</h3>
+                        <p>Básico - Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="50"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Básico - Intermedio</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-level="35"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="proyectos" class="section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <p>MI TRABAJO</p>
+                    <h2>Mis <span>proyectos</span></h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-image">
+                            <div class="project-number">01</div>
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">BASE DE DATOS</p>
+                            <h3>Sistema CRUD</h3>
+                            <p>
+                                Sistema para gestionar registros de usuarios
+                                mediante operaciones de crear, consultar,
+                                actualizar y eliminar información.
+                            </p>
+                            <div class="tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://cesar-crud.infinityfreeapp.com/index.php" class="project-btn">Ver proyecto</a>
+                                <a href="https://github.com/Cesarin0125/crud-php-mysql" class="github-btn" title="Código en GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-image project-blue">
+                            <div class="project-number">02</div>
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">DESARROLLO WEB</p>
+                            <h3>Página Web Responsive</h3>
+                            <p>
+                                Sitio web adaptable a dispositivos móviles
+                                desarrollado utilizando HTML, CSS,
+                                JavaScript y Bootstrap.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://Cesarin0125.github.io/cineVerse/" class="project-btn">Ver proyecto</a>
+                                <a href="https://github.com/Cesarin0125/cineVerse" class="github-btn" title="Código en GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-image project-purple">
+                            <div class="project-number">03</div>
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">SISTEMA WEB</p>
+                            <h3>Sistema de usuarios</h3>
+                            <p>
+                                Aplicación web con registro, inicio de sesión,
+                                gestión de usuarios y diferentes funcionalidades
+                                según el rol.
+                            </p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://sistema-usuarios-l74s.onrender.com" class="project-btn">Ver proyecto</a>
+                                <a href="https://github.com/Cesarin0125/sistema_usuarios" class="github-btn" title="Código en GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <div>
+                        <p class="small-title">¿TRABAJAMOS JUNTOS?</p>
+                        <h2>
+                            Tengo ganas de aprender<br>
+                            y asumir nuevos <span>retos.</span>
+                        </h2>
+                        <p>
+                            Estoy disponible para oportunidades laborales,
+                            proyectos freelance y nuevos desafíos.
+                        </p>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <a href="mailto:c3s5r0125@gmail.com" class="btn primary">
+                            <i class="fa-solid fa-envelope"></i>
+                            Enviarme un correo
+                        </a>
+                        <a href="#inicio" class="btn secondary">
+                            Volver arriba
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <a href="#inicio" class="logo">
+                    <span>&lt;</span> Cesar<span>/&gt;</span>
+                </a>
+                <p>Desarrollador de Software Junior</p>
+            </div>
+            <p>© 2026 Cesar Oliveros. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
